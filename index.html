@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+  <title>¡Piedra, papel o tijeras!</title>
+  <link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+    <header>
+        <h1>Juega! "Piedra, Papel o Tijeras"</h1>
+		</header>
+	<form class="" action="index.html" method="post">
+		<div>
+				<!--button class="switchButton" onclick ="changeTo2Players()" id="btn-twoPlayers">Cambiar a version 2 players</button>
+				!-->
+				<a class="switchButton" href="twoPlayers.html">Version 2 players</a>
+		</div>
+		<div class="marcador">
+			<div class="player1-label etiqueta">Tú</div>
+			<div class="pc-label etiqueta">PC</div>
+			<span id="player1-score">0</span> :
+			<span id="pc-score">0</span>
+		</div>
+		<div class="result">
+			<p>A jugar!!</p>
+		</div>
+
+    <div class="principal">
+			<div class="opciones">
+				<div class="opcion" id="piedra">
+					<img src="./imagenes/Piedra.png" alt="">
+				</div>
+				<div class="opcion" id=papel>
+					<img src="./imagenes/Papel.png" alt="">
+				</div>
+				<div class="opcion" id=tijeras>
+					<img src="./imagenes/Tijeras.png" alt="">
+				</div>
+			</div>
+    </div>
+    <div class="salida">
+      <h3 class = "resultado"></h3>
+      <h3 class = "winner"></h3>
+    </div>
+
+	</form>
+
+    <script src="scripts.js"></script>
+	</body>
+</html>
